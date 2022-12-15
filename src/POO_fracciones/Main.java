@@ -3,9 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package POO_coche;
-
-import POO_fracciones.Fracciones;
+package POO_fracciones;
 
 /**
  *
@@ -13,9 +11,11 @@ import POO_fracciones.Fracciones;
  */
 public class Main {
     public static void main (String [] args){
+        Fracciones fracciones = new Fracciones(4,2,5,3);
+        fracciones.sumar();
+        fracciones.restar();
+        fracciones.multiplicar();
+        fracciones.dividir();
         
-        Coche coche = new Coche("4 cilindros",4,4);
-        
-        coche.imprimir_argumentos();       
     }
 }
