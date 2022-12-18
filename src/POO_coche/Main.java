@@ -14,8 +14,15 @@ import POO_fracciones.Fracciones;
 public class Main {
     public static void main (String [] args){
         
-        Coche coche = new Coche("4 cilindros",4,4);
+        //Coche coche = new Coche("4 cilindros",4,4);
         
-        coche.imprimir_argumentos();       
+        //coche.imprimir_argumentos();    
+        
+        Deportivo coche_deportivo = new Deportivo();
+        
+        coche_deportivo.acelerar();
+        coche_deportivo.arrancar();
+        coche_deportivo.frenar();
+        
     }
 }

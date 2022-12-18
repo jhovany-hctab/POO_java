@@ -41,3 +41,10 @@ public class Coche {
     }
     
 }
+
+class Deportivo extends Coche{
+
+    Deportivo() {
+        super("6 cilindros",4,4);
+    }
+}
